@@ -1,0 +1,109 @@
+body {
+	background-color: #fff;
+}
+
+#page, #bottom {
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+/* Top Content */
+#main {
+	font-family: 'Istok Web', 'Raleway';
+	font-size: 15px;
+}
+
+#icon {
+	margin-top: -20px;
+}
+
+h1 {
+	font-family: 'Raleway';
+	margin-top: -10px;
+	text-transform: uppercase;
+}
+
+.text {
+	text-align: justify;
+	margin-top: 22px;
+	margin-left: 37%;
+	margin-right: 37%;
+}
+
+
+/* Input Etc. */
+#form {
+	margin-top: 20px;
+}
+
+#submit {
+	height: 30px;
+	background-color: rgba(0,0,0, 0.22);
+	border: 0;
+	border-radius: 3px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px 20px 5px 20px;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', arial;
+}
+
+#submit:hover {
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+}
+
+#submit:focus {
+	outline: none;
+}
+
+#write {
+	height: 25px;
+	width: 260px;
+	font-family: 'Source Sans Pro', arial;
+	font-size: .95em;
+	font-style: italic;
+	text-indent: 7px;
+	border: 1px solid rgb(0,0,0);
+	border-radius: 3px;
+}
+
+#write:focus {
+	outline: none;
+}
+
+.line {
+	margin: 20px;
+	border-bottom: 1px solid #000;
+	width: 35%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/* Bottom Content */
+#bottom {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Istok Web', 'Raleway';
+	font-size: 15px;
+}
+
+#items {
+	width: 30%;
+	text-align: center;
+}
+
+li {
+	display: block;
+	padding: 10px 0;
+	margin: 3px 0;
+}
+
+li:hover {
+	background-color: rgba(0,0,0,0.2);
+}
