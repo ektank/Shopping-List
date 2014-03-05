@@ -4,38 +4,50 @@
 	<meta charset="UTF-8">
 	<title>Shopping List</title>
 	<link rel="stylesheet" type="text/css" href="shoppinglist.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
-	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="shop.js"></script>
 </head>
 <body>
-	<div id="page">
-	<div id="icon">
-		<img src="shoppingcart.png" alt="Shopping cart icon" id="image" height="115" width="153"/>
-		<h1>Shopping List</h1>
+
+	<div id="box-1">
+	</div>
+	<div id="box-2">
 	</div>
 
-<div id="main">
-	<div id="top">
-		<div class="text">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, aliquam, soluta.
+	<div id="page">
+		<div id="icon">
+			<img src="shoppingcart.png" alt="Shopping cart icon" id="image" height="115" width="153"/>
+			<h1>Shopping List</h1>
 		</div>
+
+		<div id="main">
+			<div id="top">
+				<div class="text">
+					Add the items you need below. Check them off once you've got them, and delete them when you're done!
+				</div>
+
 		<div id="form">
-			<input type="text" id="write" placeholder="enter your items"><input type="submit" id="submit" value="$">
+			<input type="text" id="newItem" placeholder="enter your items">
+			<input type="submit" id="addItem" value="+">
 		</div>
-		<div class="line"></div>
-</div>
-</div>
+
+		<div class="line">
+		</div>
+
+		</div>
+	</div>
+
 	<div id="bottom">
-		<div id="items">
-			<ul id="itemlist">
-				<li>items</li>
+		<div class="items">
+			<ul id="itemList">
 			</ul>
 		</div>
 	</div>
+
 </div>
 
-	<script type="text/javascript" src="app.js"></script>
 </body>
 </html>
