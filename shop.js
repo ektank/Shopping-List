@@ -5,7 +5,7 @@ function addListItem() {
      var item = $('<li><button class="checkbox">&#x2713;</button><span class="list">' + write + '</span><button class="delete">X</button></li>');
      var newItem = $("#newItem");
 
-     if (write.length === 0  || write.length > 40) {
+     if (write.length === 0  || write.length > 33) {
         return false;
     }
     
